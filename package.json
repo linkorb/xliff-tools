@@ -1,0 +1,21 @@
+{
+  "name": "xliff_tool",
+  "version": "1.0.0",
+  "description": "xliff management tool",
+  "main": "index.js",
+  "scripts": {
+    "j2x": "node index.js - j2x",
+    "x2j": "node index.js - x2j",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "xliff"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "xliff": "^4.1.0",
+    "flat": "^4.1.0"
+  }
+}
