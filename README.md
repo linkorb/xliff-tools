@@ -6,7 +6,7 @@ Xliff Tool is a tool for generating and updating xliff from json and also json f
 
 ## Installation
 
-`$ npm i -dev xliff_tool`
+`$ npm i -D xliff_tool`
 
 ### Requirements
 * npm
