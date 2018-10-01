@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require('fs');
 const flatten = require('flat');
 const unflatten = require('flat').unflatten;
@@ -30,17 +31,17 @@ saveJsonToFile = (path, json) => {
   saveToFile(path, JSON.stringify(unflatten(json), null, 2));
 }
 
-generateXliffFromJSON = (src, xliffPath) => {
+generateXliffFromJSON = (src, xliffPath, srcLang, trgLang) => {
   let jsonData, xliffData;
   const sourceJSON = require(src);
   const targetJSON = Object.assign({}, sourceJSON, unflatten(getTargetJSONFromXliff(xliffPath)));
 
   createjs(
-    "en-US",
-    "de-CH",
+    srcLang,
+    trgLang,
     flatten(sourceJSON),
     flatten(targetJSON),
-    "translateFromEnToDe",
+    `translateFrom${srcLang}To${trgLang}`,
     (err, res) => {
       if (res) {
         jsonData = res;
@@ -100,19 +101,6 @@ getTargetJSONFromXliff = (xliffPath) => {
   });
   
   return targetJSON;
-}
-
-
-const json = process.env.json;
-const xliff = process.env.xliff;
-const arg = process.argv[3];
-if (json && xliff) {
-  if (arg === 'j2x') {
-    generateXliffFromJSON(json, xliff);
-  }
-  else if (arg === 'x2j') {
-    generateTargetJSONFromXliff(xliff, json);
-  }
 }
 
 const j2x = generateXliffFromJSON;

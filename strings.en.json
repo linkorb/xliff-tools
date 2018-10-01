@@ -1,0 +1,266 @@
+{
+  "newvalue": "this is new value",
+  "language": "English",
+  "greetings": "Welcome",
+  "forum": {
+    "forum": "Forum",
+    "comment": {
+      "by": "By",
+      "content": "Content",
+      "displayName": "Display name"
+    },
+    "topicList": {
+      "topic": "Topic",
+      "created": "Created by"
+    }
+  },
+  "footer": {
+    "about": "The aim of zwangerenportaal.nl is to provide pregnant women with optimal information about their own pregnancy.",
+    "trademark": "© All rights reserved, ZwangerenPortaal.nl",
+    "titles": {
+      "languages": "languages",
+      "stayInformed": "Stay Informed",
+      "latestArticles": "Latest Articles"
+    },
+    "copyrightBar": {
+      "faq": {
+        "url": "https://www.zwangerenportaal.nl/nl/veelgestelde-vragen",
+        "label": "Frequently Asked Questions"
+      },
+      "terms": {
+        "url": "https://www.zwangerenportaal.nl/nl/conditions",
+        "label": "Terms and Conditions"
+      },
+      "privacy": {
+        "url": "https://www.zwangerenportaal.nl/nl/privacy",
+        "label": "Privacy"
+      },
+      "cookies": {
+        "url": "https://www.zwangerenportaal.nl/nl/cookieverklaring",
+        "label": "Cookies"
+      }
+    }
+  },
+  "form": {
+    "postcode": "My postcode",
+    "maxDistance": "Maximum distance (km)",
+    "noResultsFound": "No results found"
+  },
+  "sidebar": {
+    "titles": "[object Object]"
+  },
+  "widgets": {
+    "survey": "[object Object]",
+    "myWeek": {
+      "title": "My week: Unfamiliar"
+    },
+    "benefits": {
+      "title": "Benefits",
+      "benefit": [
+        "A year-long discount on products for you and your baby",
+        "Many affiliated parties",
+        "The best actions"
+      ]
+    },
+    "appointment": {
+      "view": "View your appointments here at the midwife",
+      "title": "What time is my appointment?"
+    },
+    "stayInformed": {
+      "title": "Stay informed"
+    },
+    "ratingSystem": {
+      "title": "Let us know! Was this valuable to you?",
+      "textarea": "Tell us..."
+    },
+    "seeOffers": {
+      "description": "We together with more and more partners to take care of the best actions for you."
+    }
+  },
+  "statusPage": {
+    "404": {
+      "num": "404",
+      "gif": "https://upr.io/OdXb5A.gif",
+      "statusTitle": "Page not found",
+      "description": "The requested page is unfortunately not found, we apologize for the inconvenience!"
+    },
+    "help": "We are happy to help you!",
+    "5xx": {
+      "gif": "scaredBaby.gif",
+      "num": "5xx",
+      "statusTitle": "Server error",
+      "description": "We're working on it and we'll get it fixed as soon as we can"
+    },
+    "getInTouch": "Send an email to info@zwangerenportaal.nl and let us know what you were looking for, then we will gladly solve it for you!"
+  },
+  "dailyInformation": "You can find daily information here",
+  "commonWords": {
+    "views": "Views",
+    "channel": "Channel"
+  },
+  "searchResultsTitle": "Found results",
+  "main": {
+    "titles": {
+      "status": "Status",
+      "offers": "Offers",
+      "article": "Article",
+      "profile": "My details",
+      "category": "Category",
+      "channels": "Channels",
+      "seeOffers": "See Offers",
+      "appointments": "My appointments",
+      "popularToday": "Popular today",
+      "organizations": "Healthcare providers and agencies",
+      "recentArticles": "Recent articles",
+      "aboutPregnancy": "About my pregancy",
+      "appointmentsPrevious": "My previous appointments",
+      "familyBenefitProgram": "Family Benefit Program"
+    },
+    "articles": {
+      "views": "Views",
+      "author": "Author of article"
+    },
+    "profile": {
+      "myWeek": "My week",
+      "dueDate": "My due date",
+      "channels": "Channels",
+      "postcode": "My postcode (first 4 digits)",
+      "editButton": "Edit",
+      "likeFacebook": "Like us on Facebook",
+      "followTwitter": "Follow us on Twitter",
+      "mailSubscription": "Weekly mail subscription",
+      "dailyInformation": "Do you want useful daily information about your pregnancy?",
+      "changePhotoButton": "Change",
+      "channelsSubscribe": "Channels Subscription",
+      "edit": {
+        "dueDate": {
+          "label": "What is your due date?",
+          "message": "We have a few short questions to provide you with the best possible information, for example information about the week of pregnancy or help with finding care providers in your area."
+        },
+        "partner": {
+          "label": "Email address of your partner",
+          "placeholder": "Email address partner for invitation pregnerenportaal.nl",
+          "message": [
+            {
+              "text": "Your partner also wants to know what is going to happen with the pregnancy and what awaits him or her! Therefore, Zwangerenportaal.nl also provides valuable information for your partner."
+            },
+            {
+              "text": "Leave the e-mail address of your partner below so that we can inform him or her."
+            }
+          ]
+        },
+        "postcode": {
+          "label": "What is your zip code (only first 4 digits)?"
+        },
+        "type": {
+          "message": [
+            {
+              "text": "What is the reason that you have applied for zwangerenportaal.nl?"
+            }
+          ],
+          "options": [
+            {
+              "label": "I am pregnant",
+              "value": "PREG"
+            },
+            {
+              "label": "My partner is pregnant",
+              "value": "PARTNER"
+            },
+            {
+              "value": "PREP",
+              "label": "We want to get pregnant"
+            },
+            {
+              "value": "PROVIDER",
+              "label": "I am a healthcare provider"
+            },
+            {
+              "label": "Different",
+              "value": "DIFFERENT"
+            },
+            {
+              "value": "SKIP",
+              "label": "Skip"
+            }
+          ]
+        },
+        "mailSubscription": {
+          "label": "Do you want to receive our Pregnancy Portal e-mail once a week?",
+          "inputTrue": "Yes, nice!",
+          "inputFalse": "No, I would rather not.",
+          "message": [
+            {
+              "text": "With the weekly Pregnancy E-mail you will receive an e-mail every week in your inbox where you will find all relevant information regarding the pregnancy week in which you are. Super-active!"
+            },
+            {
+              "text": "That saves you a lot of searching on the internet. This way you are always fully aware of your development and that of your baby."
+            }
+          ]
+        }
+      },
+      "mailSubscriptionTrue": "Yes",
+      "mailSubscriptionFalse": "No"
+    },
+    "appointments": {
+      "notFound": "No previous appointments have been found.",
+      "previousAppointments": "My previous appointments",
+      "noScheduledAppointments": "No scheduled appointments have been found."
+    },
+    "organizations": {
+      "distance": "Distance",
+      "readMore": "read more about our practice here.",
+      "organizations": "Organizations"
+    }
+  },
+  "subscriptions": {
+    "amount": "Amount",
+    "duration": "Duration",
+    "reference": "Reference"
+  },
+  "elements": {
+    "buttons": {
+      "add": "Add",
+      "see": "See",
+      "pay": "Pay with iDeal",
+      "skip": "Skip",
+      "back": "Back",
+      "edit": "Edit",
+      "send": "Send",
+      "next": "Next",
+      "check": "Check",
+      "submit": "Submit",
+      "search": "Search",
+      "follow": "Follow",
+      "contact": "Contact",
+      "nextOne": "Next one",
+      "homepage": "Go to homepage",
+      "previous": "Previous",
+      "orderNow": "Order now",
+      "allOffers": "All offers",
+      "subscribe": "subscribe",
+      "unsubscribe": "unsubscribe",
+      "allPartners": "All partners",
+      "appointments": "Appointments",
+      "seeDiscountCode": "See discount code",
+      "discoverNewChannels": "Discover new channels",
+      "previousAppointments": "Previous appointments",
+      "followHealthcareProvider": "Follow healthcare provider"
+    }
+  },
+  "organisationView": {
+    "title": "Linde's Practices",
+    "description": "All your maternity care under one roof. Are you pregnant? Do you live in the Haarlem region, Heemstede? Then we offer you the most complete care, where you can choose how you want to organize your pregnancy care. With three different care packages and tailor-made solutions, we can pamper you throughout your pregnancy. Because tell yourself, you deserve it ?!"
+  },
+  "header": {
+    "userMenu": {
+      "records": "My records",
+      "signOut": "Sign out",
+      "profile": "My profile",
+      "bookmarks": "My bookmarks",
+      "appointments": "My appointments",
+      "changePassword": "Change password"
+    },
+    "searchBarPlaceholder": "Search articles, caregivers, weeks etc..."
+  }
+}

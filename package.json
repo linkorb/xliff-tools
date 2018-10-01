@@ -1,12 +1,11 @@
 {
-  "name": "xliff_tool",
+  "name": "xlifftool",
   "version": "1.0.0",
   "description": "xliff management tool",
   "main": "index.js",
   "scripts": {
-    "j2x": "node index.js -- j2x $json $xliff",
-    "x2j": "node index.js -- x2j $json $xliff",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bash": "node bash.js"
   },
   "keywords": [
     "json",
@@ -17,5 +16,11 @@
   "devDependencies": {
     "xliff": "^4.1.0",
     "flat": "^4.1.0"
-  }
+  },
+  "dependencies": {
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0"
+  },
+  "preferGlobal": true,
+  "bin": "./bash.js"
 }
