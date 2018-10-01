@@ -36,11 +36,15 @@ xliffTool.x2j(src, tar);
 ```
 $ npm i -D xliff_tool
 
-$  node bash.js j2x ./strings.en.json ./strings.de.xliff En De // generate xliff from json
+$ node bash.js j2x ./strings.en.json ./strings.de.xliff En De // generate xliff from json
 $ node bash.js x2j ./strings.de.xliff ./strings.de.json // generate json from xliff
 
-$  node prompt.js j2x // generate xliff from json
+$ node prompt.js j2x // generate xliff from json
 $ node prompt.js x2j // generate json from xliff
+
+$ sudo node link
+$ j2x ./strings.en.json ./strings.de.xliff En De // generate xliff from json
+$ x2j ./strings.de.xliff ./strings.de.json // generate json from xliff
 ```
 
 ## Contributing

@@ -44,8 +44,7 @@ program
   .alias('j2x')
   .description('Convert json to xliff')
   .action(() => {
-    prompt(json2xliff_question).then(answers => {
-      const { json, xliff, srcLang, trgLang } = answers;
+    prompt(json2xliff_question).then(( json, xliff, srcLang, trgLang ) => {
       xliffTool.j2x(json, xliff, srcLang, trgLang);
     }
   )});
@@ -55,8 +54,7 @@ program
   .alias('x2j')
   .description('Convert xliff to json')
   .action(() => {
-    prompt(xliff2json_question).then(answers => {
-      const { json, xliff } = answers;
+    prompt(xliff2json_question).then(( json, xliff ) => {
       xliffTool.x2j(xliff, json);
     }
   )});
