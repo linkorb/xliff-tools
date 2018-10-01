@@ -34,9 +34,9 @@ xliffTool.x2j(src, tar);
 
 ## Development
 ```
-$ npm i -dev xliff_tool
-$ npm run j2x // generate xliff from json
-$ npm run x2j // generate json from xliff
+$ npm i -D xliff_tool
+$ json=./example/strings.en.json xliff=./example/strings.de.xliff npm run j2x // generate xliff from json
+$ json=./example/strings.de.json xliff=./example/strings.de.xliff npm run x2j // generate json from xliff
 ```
 
 ## Contributing

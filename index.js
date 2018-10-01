@@ -103,13 +103,16 @@ getTargetJSONFromXliff = (xliffPath) => {
 }
 
 
-const env = process.argv[3];
-
-if (env === 'j2x') {
-  generateXliffFromJSON('./strings.en.json', './string.de.xliff');
-}
-else if (env === 'x2j') {
-  generateTargetJSONFromXliff('./string.de.xliff', './strings.de.json');
+const json = process.env.json;
+const xliff = process.env.xliff;
+const arg = process.argv[3];
+if (json && xliff) {
+  if (arg === 'j2x') {
+    generateXliffFromJSON(json, xliff);
+  }
+  else if (arg === 'x2j') {
+    generateTargetJSONFromXliff(xliff, json);
+  }
 }
 
 const j2x = generateXliffFromJSON;

@@ -4,8 +4,8 @@
   "description": "xliff management tool",
   "main": "index.js",
   "scripts": {
-    "j2x": "node index.js - j2x",
-    "x2j": "node index.js - x2j",
+    "j2x": "node index.js -- j2x $json $xliff",
+    "x2j": "node index.js -- x2j $json $xliff",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
