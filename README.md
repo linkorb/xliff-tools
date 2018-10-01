@@ -20,7 +20,7 @@ const xliffTool = require('xliff_tool');
 const src = './strings.en.json';
 const tar = './strings.de.xliff';
 
-xliffTool.j2x(src, tar); // export 
+xliffTool.j2x(src, tar, 'En', 'De'); // export 
 ```
 
 ```xliff_tool
